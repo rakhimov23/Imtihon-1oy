@@ -1,0 +1,341 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/open-sans-v34-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+    font-family:'Open Sans' ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: circle;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.flex {
+    display: flex;
+}
+.portion {
+    flex: 1;
+}
+.athird {
+    width: 33%;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/* header start */
+.header-main {
+    background-color:#fff;
+    box-shadow: 0px 4px 20px #0000001a;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+}
+.header-div {
+    padding: 0 2rem;
+    align-items: center;
+    height: 60px;
+}
+.ul-item {
+    margin-left: 350px;
+    gap: 25px;
+}
+.li-item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    align-items:center;
+    
+}
+.tel {
+    padding: 8px;
+    width: 160px;
+    height: 40px;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.li-item:hover {
+    color: #ccc;
+    border-bottom: 2px black solid;
+}
+.li-item:active {
+    background-color: #191919b3;
+    color: #fff;
+}
+
+.tel:hover{
+    background-color: #fff;
+    color: #00BAFC;
+    border: 2px #00BAFC solid;
+}
+.tel:active {
+    color: white;
+    background-color: #6fd0f4;
+}
+/* header end */
+
+.xizmatlar {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 110px;
+}
+.xizmatlar-title {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+padding-bottom: 8px;
+}
+.xizmatlar-text {
+    margin-left: 240px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 800px;
+    height: 48px;
+}
+
+/* yonalishlar start */
+
+.yonalishlar {
+    background-color: #F4F4F4;
+    padding-top: 60px;
+}
+.yonalish-sayt-tuzish {
+    width: 804px;
+height: 100mixh;
+margin: 0 auto;
+margin-top: 50px;
+padding: 30px;
+display: flex;
+gap: 50px;
+box-shadow: 0px 10px 16px #0000001f;
+border-radius: 5px;
+background-color: #fff;
+}
+.xizmat-box-title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding-bottom: 10px;
+}
+.xizmat-box-text {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-bottom: 10px;
+color: #000000;
+}
+.box-li {
+    font-family: 'Open Sans';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+margin-left: 17px;
+padding: 6px;
+}
+.box-btn1 {
+    padding: 8px;
+    width: 160px;
+    height: 40px;
+    background: #00BAFC;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    border:transparent;
+}
+.box-btn1:hover {
+    background-color: #fff;
+    color: #00BAFC;
+    border: 2px #00BAFC solid;
+}
+.box-btn1:active{
+    color: white;
+    background-color: #6fd0f4;
+}
+.box-linkl {
+    display: flex;
+    align-items:center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.box-linkl:hover {
+    color :#00BAFC;
+    border-bottom: 2px solid aqua;
+}
+.box-linkl:active{
+    background-color:#666060;
+    color: black;
+}
+.box-link {
+display: flex;
+gap: 20px;
+padding-top: 10px;
+}
+
+/* buturtma berish start */
+
+.buyurtma {
+    background-color: #00BAFC;
+    height: 543px;
+}
+.buyurtma-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+.buturtma-text {
+    margin: 0 auto;
+    padding: 10px 0 25px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+}
+.buyurtma-form {
+    width: 348px;
+    height: 304px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.buyurtma-input {
+    width: 300px;
+height: 56px;
+background: #F3F3F3;
+border-radius: 5px;
+border: transparent;
+padding:12px;
+margin: 8px;
+font-family: 'Open Sans';
+font-weight:400 ;
+font-size: 16px;
+color: black;
+}
+
+/* buturtma berish end */
+
+/* footer start */
+footer {
+    background-color: #000;
+    color:#fff;
+}
+.the-end {
+    height: 338px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+
+}
+.footer-titlle {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding:0 0 20px 40px ;
+}
+.footer-text {
+    width: 320px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding-left: 40px;
+}
+
+.footer-ul-title {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding-bottom: 20px;
+}
+.footer-li {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding: 5px;
+}
+.footer-li:hover {
+    color: #00BAFC;
+}
+.footer-li:active{
+color: #6dd0f5;
+}
+
+.footer--title {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding-bottom: 20px;
+}
+.footer-p{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+padding: 6px;
+}
+.footer-div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.footer-p:hover {
+    color: #00BAFC;
+}
+.footer-p:active {
+    color: #6dd0f5;
+}
+
+/* footer end */
